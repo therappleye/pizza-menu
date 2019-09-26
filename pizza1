@@ -1,0 +1,35 @@
+# to make a pizza menu
+#ing = ingredient
+ing_pepperoni = 1
+ing_olives = 1
+ing_bacon = 1
+ing_basic = 3
+#what I hope to do is depending on the type of pizza it will add up the totals for the cost to be displayed with the name of the pizza
+pizza_pepperoni = ing_pepperoni + ing_basic
+pizza_olive = ing_olives + ing_basic
+pizza_bacon = ing_bacon + ing_basic
+pizza_cheese = ing_basic
+pizza_works = ing_pepperoni + ing_olives + ing_bacon + ing_basic
+
+desc_pepperoni = "  Ingredients:  pepperoni, cheese, sauce, and dough"
+desc_olive = "  Ingredients:  olives, cheese, sauce, and dough"
+desc_bacon = "  Ingredients:  bacon, cheese, sauce, and dough"
+desc_cheese = "  Ingredients:  cheese, sauce, and dough"
+desc_works = "  Ingredients:  pepperoni, olives, bacon, cheese, sauce, and dough"
+
+title_pepperoni = "Pepperoni Pizza - " + " $" + str(pizza_pepperoni)
+title_olive = "Olive Pizza - " + " $" + str(pizza_olive)
+title_bacon = "Bacon Pizza - " + " $" + str(pizza_bacon)
+title_cheese = "Cheese Pizza - " + " $" + str(pizza_cheese)
+title_works = "The Works Pizza - " + " $" + str(pizza_works)
+
+print title_pepperoni
+print desc_pepperoni
+print title_olive
+print desc_olive
+print title_bacon
+print desc_bacon
+print title_cheese
+print desc_cheese
+print title_works
+print desc_works
